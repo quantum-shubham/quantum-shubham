@@ -574,6 +574,15 @@ Focus:
 `Artificial Intelligence / Machine Learning`
 
 ---
+### UPES
+
+**B.Tech — Computer Science & Engineering**
+
+Focus:
+
+`Graphics and Gaming`
+
+---
 
 # OUTSIDE THE CODE
 
