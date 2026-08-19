@@ -378,42 +378,6 @@ An independent game-development direction exploring games, interactive systems a
 
 ---
 
-# GITHUB
-
-<div align="center">
-
-<a href="https://github.com/quantum-shubham">
-  <img src="https://img.shields.io/github/followers/quantum-shubham?style=for-the-badge&logo=github&label=Followers" />
-</a>
-
-<a href="https://github.com/quantum-shubham?tab=repositories">
-  <img src="https://img.shields.io/github/public-repos/quantum-shubham?style=for-the-badge&logo=github&label=Repositories" />
-</a>
-
-<a href="https://github.com/quantum-shubham?tab=stars">
-  <img src="https://img.shields.io/github/stars/quantum-shubham?style=for-the-badge&logo=github&label=Stars" />
-</a>
-
-</div>
-
-<br>
-
-<div align="center">
-
-<a href="https://github.com/quantum-shubham?tab=repositories">
-
-<img
-src="https://github-profile-trophy.vercel.app/?username=quantum-shubham&theme=flat&no-frame=true&no-bg=true&margin-w=8&column=7"
-alt="GitHub Trophies"
-width="850"
-/>
-
-</a>
-
-</div>
-
----
-
 # CONTRIBUTIONS
 
 <div align="center">
