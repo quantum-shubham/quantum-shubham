@@ -4,7 +4,7 @@
 
 ### AI ENGINEER · SYSTEMS BUILDER · CREATOR
 
-**AI × Systems × Games × Quantum**
+**AI × SYSTEMS × GAMES × QUANTUM**
 
 <p>
   <a href="https://linkedin.com/in/quantum-shubham">
@@ -20,7 +20,10 @@
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3000&pause=1000&center=true&vCenter=true&width=800&lines=Building+intelligent+systems+that+survive+beyond+the+prototype.;AI+%7C+LLMs+%7C+Agents+%7C+Backend+%7C+Infrastructure;From+idea+%E2%86%92+architecture+%E2%86%92+production.;Currently+exploring+AI+%C3%97+Systems+%C3%97+Quantum+Computing." />
+<img
+src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3000&pause=1000&center=true&vCenter=true&width=850&lines=Building+intelligent+systems+that+survive+beyond+the+prototype.;AI+%7C+LLMs+%7C+Agents+%7C+Backend+%7C+Infrastructure;From+idea+%E2%86%92+architecture+%E2%86%92+production.;Currently+exploring+AI+%C3%97+Systems+%C3%97+Quantum+Computing."
+alt="Typing animation"
+/>
 
 </div>
 
@@ -65,13 +68,14 @@ I enjoy taking things from:
 
 ---
 
-## CURRENTLY
+# CURRENTLY
 
 <table>
 <tr>
-<td width="50%">
 
-### `01` — AI Engineering
+<td width="50%" valign="top">
+
+### `01` — AI ENGINEERING
 
 Production-oriented AI systems.
 
@@ -86,9 +90,10 @@ Production-oriented AI systems.
 * Evaluation & reliability
 
 </td>
-<td width="50%">
 
-### `02` — Systems
+<td width="50%" valign="top">
+
+### `02` — SYSTEMS
 
 The engineering around the model.
 
@@ -103,12 +108,14 @@ The engineering around the model.
 * Infrastructure
 
 </td>
+
 </tr>
 
 <tr>
-<td width="50%">
 
-### `03` — Experimental
+<td width="50%" valign="top">
+
+### `03` — EXPERIMENTAL
 
 Things that don't fit neatly into a job title.
 
@@ -120,9 +127,10 @@ Things that don't fit neatly into a job title.
 * Research experiments
 
 </td>
-<td width="50%">
 
-### `04` — Long Game
+<td width="50%" valign="top">
+
+### `04` — LONG GAME
 
 Currently going deeper into:
 
@@ -134,6 +142,7 @@ Currently going deeper into:
 * Quantum algorithms
 
 </td>
+
 </tr>
 </table>
 
@@ -141,45 +150,72 @@ Currently going deeper into:
 
 # THE STACK
 
-### AI / ML
+### Artificial Intelligence
 
-<p>
-<img src="https://skillicons.dev/icons?i=python,pytorch" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,pytorch" />
 </p>
 
-`Machine Learning` · `Deep Learning` · `LLMs` · `Generative AI` · `RAG` · `NLP` · `Agents`
+<p align="center">
+  <code>Machine Learning</code>
+  <code>Deep Learning</code>
+  <code>LLMs</code>
+  <code>Generative AI</code>
+  <code>RAG</code>
+  <code>NLP</code>
+  <code>Agents</code>
+</p>
 
 ### Engineering
 
-<p>
-<img src="https://skillicons.dev/icons?i=python,fastapi,react,nodejs,postgres,redis,docker,linux" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,fastapi,react,nodejs,postgres,redis,docker,linux" />
 </p>
 
-`Python` · `FastAPI` · `React` · `Node.js` · `PostgreSQL` · `Redis` · `Docker` · `Linux`
+<p align="center">
+  <code>Python</code>
+  <code>FastAPI</code>
+  <code>React</code>
+  <code>Node.js</code>
+  <code>PostgreSQL</code>
+  <code>Redis</code>
+  <code>Docker</code>
+  <code>Linux</code>
+</p>
 
 ### Languages
 
-<p>
-<img src="https://skillicons.dev/icons?i=python,cpp,cs,js,typescript" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,cpp,cs,js,typescript" />
 </p>
-
-`Python` · `C++` · `C#` · `JavaScript` · `TypeScript`
 
 ### Game Development
 
-<p>
-<img src="https://skillicons.dev/icons?i=unity,unreal" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=unity,unreal" />
 </p>
 
-`Unity` · `Unreal Engine` · `C#` · `C++`
-
-### DevOps / Infrastructure
-
-<p>
-<img src="https://skillicons.dev/icons?i=docker,linux,github,gitlab,grafana,prometheus" />
+<p align="center">
+  <code>Unity</code>
+  <code>Unreal Engine</code>
+  <code>C#</code>
+  <code>C++</code>
 </p>
 
-`Docker Compose` · `Traefik` · `Prometheus` · `Grafana` · `GitHub Actions` · `GitLab CI/CD`
+### Infrastructure
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=docker,linux,github,gitlab,grafana,prometheus" />
+</p>
+
+<p align="center">
+  <code>Docker Compose</code>
+  <code>Traefik</code>
+  <code>Prometheus</code>
+  <code>Grafana</code>
+  <code>GitHub Actions</code>
+  <code>GitLab CI/CD</code>
+</p>
 
 ---
 
@@ -207,6 +243,7 @@ A model is only one component.
           RETRIEVAL          TOOLS             MEMORY
               │                 │                 │
               └─────────────────┼─────────────────┘
+                                │
                                 ▼
                          ┌─────────────┐
                          │    MODEL    │
@@ -289,17 +326,17 @@ My engineering journey hasn't followed one straight line.
               ▼
       SOFTWARE ENGINEERING
               │
-       Backend / APIs
+        Backend / APIs
               │
               ▼
        ARTIFICIAL INTELLIGENCE
               │
-        ML / NLP / LLMs
+         ML / NLP / LLMs
               │
               ▼
        PRODUCTION SYSTEMS
               │
-       Agents / RAG / Data
+        Agents / RAG / Data
               │
               ▼
        QUANTUM COMPUTING
@@ -323,7 +360,9 @@ An independent space for building, experimenting and exploring technology.
 
 **AI · Software · Systems · Experiments**
 
-→ https://sumanillabs.com
+<a href="https://sumanillabs.com">
+  <img src="https://img.shields.io/badge/Visit-Sumanil%20Labs-111111?style=for-the-badge&logo=googlechrome&logoColor=white" />
+</a>
 
 ---
 
@@ -333,7 +372,9 @@ An independent game-development direction exploring games, interactive systems a
 
 **Games · Unity · Unreal · C# · C++**
 
-→ https://sumanilgamestudio.com
+<a href="https://sumanilgamestudio.com">
+  <img src="https://img.shields.io/badge/Visit-Sumanil%20Game%20Studio-111111?style=for-the-badge&logo=unity&logoColor=white" />
+</a>
 
 ---
 
@@ -341,9 +382,17 @@ An independent game-development direction exploring games, interactive systems a
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=quantum-shubham&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" height="180"/>
+<a href="https://github.com/quantum-shubham">
+  <img src="https://img.shields.io/github/followers/quantum-shubham?style=for-the-badge&logo=github&label=Followers" />
+</a>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=quantum-shubham&layout=compact&hide_border=true&langs_count=8" height="180"/>
+<a href="https://github.com/quantum-shubham?tab=repositories">
+  <img src="https://img.shields.io/github/public-repos/quantum-shubham?style=for-the-badge&logo=github&label=Repositories" />
+</a>
+
+<a href="https://github.com/quantum-shubham?tab=stars">
+  <img src="https://img.shields.io/github/stars/quantum-shubham?style=for-the-badge&logo=github&label=Stars" />
+</a>
 
 </div>
 
@@ -351,7 +400,15 @@ An independent game-development direction exploring games, interactive systems a
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=quantum-shubham&hide_border=true" />
+<a href="https://github.com/quantum-shubham?tab=repositories">
+
+<img
+src="https://github-profile-trophy.vercel.app/?username=quantum-shubham&theme=flat&no-frame=true&no-bg=true&margin-w=8&column=7"
+alt="GitHub Trophies"
+width="850"
+/>
+
+</a>
 
 </div>
 
@@ -361,15 +418,25 @@ An independent game-development direction exploring games, interactive systems a
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/quantum-shubham/quantum-shubham/output/github-contribution-grid-snake.svg" width="900"/>
+<picture>
 
-</div>
+<source
+media="(prefers-color-scheme: dark)"
+srcset="https://raw.githubusercontent.com/quantum-shubham/quantum-shubham/gh-pages/github-contribution-grid-snake-dark.svg"
+/>
 
-<br>
+<source
+media="(prefers-color-scheme: light)"
+srcset="https://raw.githubusercontent.com/quantum-shubham/quantum-shubham/gh-pages/github-contribution-grid-snake.svg"
+/>
 
-<div align="center">
+<img
+src="https://raw.githubusercontent.com/quantum-shubham/quantum-shubham/gh-pages/github-contribution-grid-snake.svg"
+alt="GitHub contribution snake animation"
+width="900"
+/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=quantum-shubham&theme=flat&no-frame=true&no-bg=true&margin-w=8&column=7" width="900"/>
+</picture>
 
 </div>
 
@@ -406,7 +473,11 @@ Quantum Computing
 
 I'm particularly interested in the intersection of:
 
-**AI × Mathematics × Systems × Quantum**
+<div align="center">
+
+### AI × MATHEMATICS × SYSTEMS × QUANTUM
+
+</div>
 
 ---
 
@@ -440,6 +511,8 @@ Good systems matter more.
 
 # CURRENT RABBIT HOLES
 
+<div align="center">
+
 ```text
                  ┌──────────────┐
                  │     AI       │
@@ -465,6 +538,8 @@ Good systems matter more.
                  │   QUANTUM    │
                  └──────────────┘
 ```
+
+</div>
 
 ---
 
@@ -525,20 +600,20 @@ That curiosity is probably responsible for most of the projects in my repositori
 
 <div align="center">
 
-## LET'S BUILD SOMETHING INTERESTING.
+# LET'S BUILD SOMETHING INTERESTING.
 
 <br>
 
 <a href="https://linkedin.com/in/quantum-shubham">
-<img src="https://img.shields.io/badge/LinkedIn-quantum--shubham-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LinkedIn-quantum--shubham-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 
 <a href="https://sumanillabs.com">
-<img src="https://img.shields.io/badge/Sumanil%20Labs-111111?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Sumanil%20Labs-111111?style=for-the-badge&logo=googlechrome&logoColor=white" />
 </a>
 
-<a href="https://sumanilgamestudio.com">
-<img src="https://img.shields.io/badge/Sumanil%20Game%20Studio-111111?style=for-the-badge&logo=unity&logoColor=white"/>
+<a href="https://sumanillgamestudio.com">
+  <img src="https://img.shields.io/badge/Sumanil%20Game%20Studio-111111?style=for-the-badge&logo=unity&logoColor=white" />
 </a>
 
 <br><br>
