@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:8957e5&height=160&section=header" width="100%" alt="" />
+
 # SHUBHAM KUMAR
 
 ### AI ENGINEER · SYSTEMS BUILDER · CREATOR
@@ -378,28 +380,46 @@ An independent game-development direction exploring games, interactive systems a
 
 ---
 
+# OPEN SOURCE
+
+Contributions to projects outside my own repositories. Updated daily by a GitHub Action; status badges are live.
+
+<div align="center">
+
+<!-- CONTRIBUTIONS:START -->
+| Project | Contribution | Status |
+|:--|:--|:--:|
+| [**diegosouzapw/OmniRoute**](https://github.com/diegosouzapw/OmniRoute) | [fix(dashboard): honour image apiFormat in model test probe (#17071)](https://github.com/diegosouzapw/OmniRoute/pull/17085) | <img src="https://img.shields.io/github/pulls/detail/state/diegosouzapw/OmniRoute/17085?style=flat-square&label=" /> |
+| [**google-research/harness2**](https://github.com/google-research/harness2) | [Add Claude Code (cc) and Pi (pi) substrates for JobBench](https://github.com/google-research/harness2/pull/66) | <img src="https://img.shields.io/github/pulls/detail/state/google-research/harness2/66?style=flat-square&label=" /> |
+<!-- CONTRIBUTIONS:END -->
+
+<a href="https://github.com/search?q=is%3Apr+author%3Aquantum-shubham+-user%3Aquantum-shubham&type=pullrequests">
+  <img src="https://img.shields.io/badge/All%20Pull%20Requests-View-111111?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</div>
+
+---
+
 # CONTRIBUTIONS
 
 <div align="center">
 
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=quantum-shubham&show_icons=true&include_all_commits=true&hide=stars&hide_border=true&theme=github_dark&bg_color=0d1117" />
+  <img src="https://github-readme-stats.vercel.app/api?username=quantum-shubham&show_icons=true&include_all_commits=true&hide=stars&hide_border=true" height="170" alt="GitHub contribution stats" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=quantum-shubham&hide_border=true&theme=github-dark-blue" />
+  <img src="https://streak-stats.demolab.com/?user=quantum-shubham&hide_border=true" height="170" alt="GitHub contribution streak" />
+</picture>
 
-<source
-media="(prefers-color-scheme: dark)"
-srcset="https://raw.githubusercontent.com/quantum-shubham/quantum-shubham/gh-pages/github-contribution-grid-snake-dark.svg"
-/>
+<br><br>
 
-<source
-media="(prefers-color-scheme: light)"
-srcset="https://raw.githubusercontent.com/quantum-shubham/quantum-shubham/gh-pages/github-contribution-grid-snake.svg"
-/>
-
-<img
-src="https://raw.githubusercontent.com/quantum-shubham/quantum-shubham/gh-pages/github-contribution-grid-snake.svg"
-alt="GitHub contribution snake animation"
-width="900"
-/>
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/quantum-shubham/quantum-shubham/gh-pages/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/quantum-shubham/quantum-shubham/gh-pages/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/quantum-shubham/quantum-shubham/gh-pages/github-contribution-grid-snake.svg" alt="GitHub contribution snake animation" width="900" />
 </picture>
 
 </div>
@@ -585,7 +605,7 @@ That curiosity is probably responsible for most of the projects in my repositori
   <img src="https://img.shields.io/badge/Sumanil%20Labs-111111?style=for-the-badge&logo=googlechrome&logoColor=white" />
 </a>
 
-<a href="https://sumanillgamestudio.com">
+<a href="https://sumanilgamestudio.com">
   <img src="https://img.shields.io/badge/Sumanil%20Game%20Studio-111111?style=for-the-badge&logo=unity&logoColor=white" />
 </a>
 
@@ -598,5 +618,7 @@ BUILD → BREAK → UNDERSTAND → IMPROVE → SHIP
 <br>
 
 <sub>Always building. Always learning. Always questioning the abstraction.</sub>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8957e5,50:1f6feb,100:0d1117&height=120&section=footer" width="100%" alt="" />
 
 </div>
