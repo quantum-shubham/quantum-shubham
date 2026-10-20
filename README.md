@@ -20,18 +20,10 @@
   </a>
 </p>
 
-<br>
-
 <img
 src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3000&pause=1000&center=true&vCenter=true&width=850&lines=Building+intelligent+systems+that+survive+beyond+the+prototype.;AI+%7C+LLMs+%7C+Agents+%7C+Backend+%7C+Infrastructure;From+idea+%E2%86%92+architecture+%E2%86%92+production.;Currently+exploring+AI+%C3%97+Systems+%C3%97+Quantum+Computing."
 alt="Typing animation"
 />
-
-</div>
-
----
-
-<div align="center">
 
 > **I don't just want to use the future.**
 > **I want to understand how to build it.**
@@ -42,355 +34,29 @@ alt="Typing animation"
 
 ## `whoami`
 
-I'm an **AI Engineer / Consultant** interested in the space where intelligent software meets real engineering.
+I'm an **AI Engineer / Consultant at PharmaEdge**, building AI systems for pharmaceutical intelligence: news and clinical intelligence, information extraction, summarisation and semantic search, running in production.
 
-Currently working at **PharmaEdge**, building AI-driven systems for pharmaceutical intelligence and real-world workflows.
+Outside work I fix things upstream in the tools I depend on: **AWS SDKs, LLM routing, agent benchmarks and game netcode**. Before AI, I built games in Unity and Unreal, and that still shapes how I think about systems.
 
-My background spans:
-
-```text
-Artificial Intelligence
-        ↓
-LLMs / Generative AI
-        ↓
-Agents / RAG / NLP
-        ↓
-Backend & Data Systems
-        ↓
-Infrastructure & Automation
-        ↓
-Games / Interactive Systems
-        ↓
-Quantum Computing
-```
-
-I enjoy taking things from:
-
-**idea → experiment → architecture → implementation → production**
+I like taking things from **idea → experiment → architecture → implementation → production**, and I like knowing why they work once they get there.
 
 ---
 
-# CURRENTLY
+## OPEN SOURCE
 
-<table>
-<tr>
-
-<td width="50%" valign="top">
-
-### `01` — AI ENGINEERING
-
-Production-oriented AI systems.
-
-* LLM applications
-* AI agents
-* RAG
-* NLP
-* Semantic search
-* Information extraction
-* AI pipelines
-* Structured generation
-* Evaluation & reliability
-
-</td>
-
-<td width="50%" valign="top">
-
-### `02` — SYSTEMS
-
-The engineering around the model.
-
-* Backend architecture
-* APIs
-* Databases
-* Data pipelines
-* Authentication
-* RBAC
-* Caching
-* Observability
-* Infrastructure
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="50%" valign="top">
-
-### `03` — EXPERIMENTAL
-
-Things that don't fit neatly into a job title.
-
-* Developer tooling
-* Automation
-* Local AI infrastructure
-* Self-hosted systems
-* AI agents
-* Research experiments
-
-</td>
-
-<td width="50%" valign="top">
-
-### `04` — LONG GAME
-
-Currently going deeper into:
-
-* Computer science
-* Algorithms
-* Mathematics
-* AI systems
-* Quantum computing
-* Quantum algorithms
-
-</td>
-
-</tr>
-</table>
-
----
-
-# THE STACK
-
-### Artificial Intelligence
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,pytorch" />
-</p>
-
-<p align="center">
-  <code>Machine Learning</code>
-  <code>Deep Learning</code>
-  <code>LLMs</code>
-  <code>Generative AI</code>
-  <code>RAG</code>
-  <code>NLP</code>
-  <code>Agents</code>
-</p>
-
-### Engineering
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,react,nodejs,postgres,redis,docker,linux" />
-</p>
-
-<p align="center">
-  <code>Python</code>
-  <code>FastAPI</code>
-  <code>React</code>
-  <code>Node.js</code>
-  <code>PostgreSQL</code>
-  <code>Redis</code>
-  <code>Docker</code>
-  <code>Linux</code>
-</p>
-
-### Languages
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,cs,js,typescript" />
-</p>
-
-### Game Development
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=unity,unreal" />
-</p>
-
-<p align="center">
-  <code>Unity</code>
-  <code>Unreal Engine</code>
-  <code>C#</code>
-  <code>C++</code>
-</p>
-
-### Infrastructure
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=docker,linux,github,gitlab,grafana,prometheus" />
-</p>
-
-<p align="center">
-  <code>Docker Compose</code>
-  <code>Traefik</code>
-  <code>Prometheus</code>
-  <code>Grafana</code>
-  <code>GitHub Actions</code>
-  <code>GitLab CI/CD</code>
-</p>
-
----
-
-# HOW I THINK ABOUT AI
-
-A model is only one component.
-
-```text
-                         ┌─────────────┐
-                         │    USER     │
-                         └──────┬──────┘
-                                │
-                                ▼
-                         ┌─────────────┐
-                         │     API     │
-                         └──────┬──────┘
-                                │
-                                ▼
-                    ┌───────────────────────┐
-                    │    ORCHESTRATION      │
-                    └───────────┬───────────┘
-                                │
-              ┌─────────────────┼─────────────────┐
-              ▼                 ▼                 ▼
-          RETRIEVAL          TOOLS             MEMORY
-              │                 │                 │
-              └─────────────────┼─────────────────┘
-                                │
-                                ▼
-                         ┌─────────────┐
-                         │    MODEL    │
-                         └──────┬──────┘
-                                │
-                                ▼
-                         ┌─────────────┐
-                         │ VALIDATION  │
-                         └──────┬──────┘
-                                │
-                                ▼
-                         STRUCTURED OUTPUT
-```
-
-The interesting engineering starts **after the model responds**.
-
-Reliability, observability, security, evaluation, fallbacks and failure handling are what turn an AI demo into an actual system.
-
----
-
-# PHARMACEUTICAL INTELLIGENCE
-
-My current work sits at the intersection of:
-
-```text
-Pharmaceutical Data
-       +
-AI / LLMs
-       +
-Information Retrieval
-       +
-Semantic Intelligence
-       +
-Automation
-       ↓
-Actionable Intelligence
-```
-
-Areas I work with include:
-
-* News intelligence
-* Clinical intelligence
-* Semantic analysis
-* Information extraction
-* Summarization
-* Clustering
-* AI-assisted research
-* Structured content generation
-* Production AI services
-
-The goal isn't simply:
-
-> "Generate a summary."
-
-The goal is:
-
-```text
-SOURCE
-  ↓
-EVIDENCE
-  ↓
-UNDERSTANDING
-  ↓
-STRUCTURED INTELLIGENCE
-  ↓
-HUMAN DECISION
-```
-
----
-
-# FROM GAMES TO AI
-
-My engineering journey hasn't followed one straight line.
-
-```text
-       GAME DEVELOPMENT
-              │
-       Unity / Unreal
-              │
-              ▼
-      SOFTWARE ENGINEERING
-              │
-        Backend / APIs
-              │
-              ▼
-       ARTIFICIAL INTELLIGENCE
-              │
-         ML / NLP / LLMs
-              │
-              ▼
-       PRODUCTION SYSTEMS
-              │
-        Agents / RAG / Data
-              │
-              ▼
-       QUANTUM COMPUTING
-```
-
-Game development taught me to think about **systems, interactions and user experience**.
-
-Backend engineering taught me to think about **reliability and architecture**.
-
-AI taught me to think about **uncertainty and intelligence**.
-
-Now I'm interested in what happens when all three meet.
-
----
-
-# PROJECTS
-
-## `Sumanil Labs`
-
-An independent space for building, experimenting and exploring technology.
-
-**AI · Software · Systems · Experiments**
-
-<a href="https://sumanillabs.com">
-  <img src="https://img.shields.io/badge/Visit-Sumanil%20Labs-111111?style=for-the-badge&logo=googlechrome&logoColor=white" />
-</a>
-
----
-
-## `Sumanil Game Studio`
-
-An independent game-development direction exploring games, interactive systems and technology.
-
-**Games · Unity · Unreal · C# · C++**
-
-<a href="https://sumanilgamestudio.com">
-  <img src="https://img.shields.io/badge/Visit-Sumanil%20Game%20Studio-111111?style=for-the-badge&logo=unity&logoColor=white" />
-</a>
-
----
-
-# OPEN SOURCE
-
-Contributions to projects outside my own repositories. Updated daily by a GitHub Action; status badges are live.
+Pull requests to projects I don't own. Refreshed daily by a GitHub Action from the GitHub API; status badges are live.
 
 <div align="center">
 
 <!-- CONTRIBUTIONS:START -->
+<img src="https://img.shields.io/badge/Merged_PRs-2-8957e5?style=for-the-badge&logo=git&logoColor=white" /> <img src="https://img.shields.io/badge/In_review-2-1f6feb?style=for-the-badge&logo=github&logoColor=white" /> <img src="https://img.shields.io/badge/Projects-4-111111?style=for-the-badge&logo=opensourceinitiative&logoColor=white" />
+
 | Project | Contribution | Status |
 |:--|:--|:--:|
-| [**diegosouzapw/OmniRoute**](https://github.com/diegosouzapw/OmniRoute) | [fix(dashboard): honour image apiFormat in model test probe (#17071)](https://github.com/diegosouzapw/OmniRoute/pull/17085) | <img src="https://img.shields.io/github/pulls/detail/state/diegosouzapw/OmniRoute/17085?style=flat-square&label=" /> |
-| [**google-research/harness2**](https://github.com/google-research/harness2) | [Add Claude Code (cc) and Pi (pi) substrates for JobBench](https://github.com/google-research/harness2/pull/66) | <img src="https://img.shields.io/github/pulls/detail/state/google-research/harness2/66?style=flat-square&label=" /> |
+| <img src="https://github.com/async-aws.png?size=40" width="20" height="20" /> [**async-aws/aws**](https://github.com/async-aws/aws) | [Write changelog entries for added regions in the refresh script](https://github.com/async-aws/aws/pull/2149) | <img src="https://img.shields.io/github/pulls/detail/state/async-aws/aws/2149?style=flat-square&label=" /> |
+| <img src="https://github.com/diegosouzapw.png?size=40" width="20" height="20" /> [**diegosouzapw/OmniRoute**](https://github.com/diegosouzapw/OmniRoute) | [fix(dashboard): honour image apiFormat in model test probe (#17071)](https://github.com/diegosouzapw/OmniRoute/pull/17085) | <img src="https://img.shields.io/github/pulls/detail/state/diegosouzapw/OmniRoute/17085?style=flat-square&label=" /> |
+| <img src="https://github.com/Unity-Technologies.png?size=40" width="20" height="20" /> [**Unity-Technologies/com.unity.netcode.gameobjects**](https://github.com/Unity-Technologies/com.unity.netcode.gameobjects) | [fix: NetworkList changes pending during client synchronization are applied twice](https://github.com/Unity-Technologies/com.unity.netcode.gameobjects/pull/4200) | <img src="https://img.shields.io/github/pulls/detail/state/Unity-Technologies/com.unity.netcode.gameobjects/4200?style=flat-square&label=" /> |
+| <img src="https://github.com/google-research.png?size=40" width="20" height="20" /> [**google-research/harness2**](https://github.com/google-research/harness2) | [Add Claude Code (cc) and Pi (pi) substrates for JobBench](https://github.com/google-research/harness2/pull/66) | <img src="https://img.shields.io/github/pulls/detail/state/google-research/harness2/66?style=flat-square&label=" /> |
 <!-- CONTRIBUTIONS:END -->
 
 <a href="https://github.com/search?q=is%3Apr+author%3Aquantum-shubham+-user%3Aquantum-shubham&type=pullrequests">
@@ -401,17 +67,145 @@ Contributions to projects outside my own repositories. Updated daily by a GitHub
 
 ---
 
-# CONTRIBUTIONS
+## WHAT I WORK ON
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### `01` AI ENGINEERING
+Production AI, not demos.
+
+`LLM apps` `Agents` `RAG` `NLP` `Semantic search` `Information extraction` `Structured generation` `Evaluation`
+
+</td>
+<td width="50%" valign="top">
+
+### `02` SYSTEMS
+The engineering around the model.
+
+`Backend architecture` `APIs` `Databases` `Data pipelines` `Auth & RBAC` `Caching` `Observability` `Infrastructure`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### `03` EXPERIMENTAL
+Things that don't fit a job title.
+
+`Developer tooling` `Automation` `Local AI infrastructure` `Self-hosted systems` `Research experiments`
+
+</td>
+<td width="50%" valign="top">
+
+### `04` LONG GAME
+Going deeper, slowly and properly.
+
+`Algorithms` `Mathematics` `CS foundations` `Quantum information` `Quantum algorithms`
+
+</td>
+</tr>
+</table>
+
+---
+
+## STACK
+
+<div align="center">
+
+| | |
+|:--|:--|
+| **AI** | <img src="https://skillicons.dev/icons?i=python,pytorch" height="36" /> &nbsp; `ML` `Deep Learning` `LLMs` `GenAI` `RAG` `NLP` `Agents` |
+| **Engineering** | <img src="https://skillicons.dev/icons?i=fastapi,react,nodejs,postgres,redis" height="36" /> |
+| **Languages** | <img src="https://skillicons.dev/icons?i=python,cpp,cs,js,typescript" height="36" /> |
+| **Games** | <img src="https://skillicons.dev/icons?i=unity,unreal" height="36" /> |
+| **Infrastructure** | <img src="https://skillicons.dev/icons?i=docker,linux,github,gitlab,grafana,prometheus" height="36" /> &nbsp; `Traefik` `GitHub Actions` `GitLab CI/CD` |
+
+</div>
+
+---
+
+## HOW I THINK ABOUT AI
+
+A model is only one component.
+
+```text
+            USER ──▶ API ──▶ ORCHESTRATION
+                                  │
+              ┌───────────────────┼───────────────────┐
+              ▼                   ▼                   ▼
+          RETRIEVAL             TOOLS               MEMORY
+              └───────────────────┼───────────────────┘
+                                  ▼
+                    MODEL ──▶ VALIDATION ──▶ STRUCTURED OUTPUT
+```
+
+The interesting engineering starts **after the model responds**: reliability, observability, security, evaluation, fallbacks and failure handling are what turn an AI demo into a system.
+
+---
+
+## PHARMACEUTICAL INTELLIGENCE
+
+My day job sits where pharmaceutical data meets LLMs, retrieval and automation.
+
+`News intelligence` `Clinical intelligence` `Semantic analysis` `Information extraction` `Summarisation` `Clustering` `AI-assisted research` `Production AI services`
+
+The goal isn't *"generate a summary"*. It's:
+
+```text
+SOURCE ──▶ EVIDENCE ──▶ UNDERSTANDING ──▶ STRUCTURED INTELLIGENCE ──▶ HUMAN DECISION
+```
+
+---
+
+## FROM GAMES TO AI
+
+```text
+GAME DEV ──▶ SOFTWARE ENGINEERING ──▶ AI / ML / LLMs ──▶ PRODUCTION SYSTEMS ──▶ QUANTUM
+Unity/Unreal     Backend / APIs          NLP / LLMs        Agents / RAG / Data
+```
+
+Games taught me **systems, interaction and user experience**. Backend engineering taught me **reliability and architecture**. AI taught me **uncertainty**. I'm interested in what happens when all three meet.
+
+---
+
+## PROJECTS
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Sumanil Labs
+An independent space for building and experimenting.
+
+**AI · Software · Systems · Experiments**
+
+<a href="https://sumanillabs.com"><img src="https://img.shields.io/badge/Visit-Sumanil%20Labs-111111?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+
+</td>
+<td width="50%" valign="top">
+
+### Sumanil Game Studio
+Games, interactive systems and the tech behind them.
+
+**Unity · Unreal · C# · C++**
+
+<a href="https://sumanilgamestudio.com"><img src="https://img.shields.io/badge/Visit-Sumanil%20Game%20Studio-111111?style=for-the-badge&logo=unity&logoColor=white" /></a>
+
+</td>
+</tr>
+</table>
+
+---
+
+## ACTIVITY
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=quantum-shubham&show_icons=true&include_all_commits=true&hide=stars&hide_border=true&theme=github_dark&bg_color=0d1117" />
-  <img src="https://github-readme-stats.vercel.app/api?username=quantum-shubham&show_icons=true&include_all_commits=true&hide=stars&hide_border=true" height="170" alt="GitHub contribution stats" />
-</picture>
-<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=quantum-shubham&hide_border=true&theme=github-dark-blue" />
-  <img src="https://streak-stats.demolab.com/?user=quantum-shubham&hide_border=true" height="170" alt="GitHub contribution streak" />
+  <img src="https://streak-stats.demolab.com/?user=quantum-shubham&hide_border=true" alt="GitHub contribution streak" />
 </picture>
 
 <br><br>
@@ -426,196 +220,52 @@ Contributions to projects outside my own repositories. Updated daily by a GitHub
 
 ---
 
-# WHAT I'M LEARNING
+## EXPERIENCE & EDUCATION
 
-Currently following a deeper path into computer science and quantum computing:
-
-```text
-Python
-  │
-  ▼
-Data Structures & Algorithms
-  │
-  ▼
-Mathematics
-  │
-  ▼
-Computer Science Foundations
-  │
-  ▼
-Advanced AI Systems
-  │
-  ▼
-Quantum Information
-  │
-  ▼
-Quantum Algorithms
-  │
-  ▼
-Quantum Computing
-```
-
-I'm particularly interested in the intersection of:
-
-<div align="center">
-
-### AI × MATHEMATICS × SYSTEMS × QUANTUM
-
-</div>
+| | | |
+|:--|:--|:--|
+| **PharmaEdge** | AI Engineer / Consultant | AI-driven pharmaceutical intelligence and production systems |
+| **Trucube Infotech** | Full-Stack · AI · Game · Blockchain | `AI/ML` `Backend` `Full-Stack` `Unity` `Unreal` `C#` `C++` `Blockchain` |
+| **UPES** | M.Tech, Computer Science & Engineering | Artificial Intelligence / Machine Learning |
+| **UPES** | B.Tech, Computer Science & Engineering | Graphics and Gaming |
 
 ---
 
-# ENGINEERING PRINCIPLES
+## ENGINEERING PRINCIPLES
 
-### `01` — Understand before optimizing
-
-If I don't know where the bottleneck is, I'm guessing.
-
-### `02` — A prototype isn't production
-
-Production means thinking about:
-
-`security · failures · observability · scalability · maintenance`
-
-### `03` — Simplicity wins
-
-Complexity should solve a problem, not create one.
-
-### `04` — Build things you can explain
-
-If I can't explain why a component exists, it deserves another look.
-
-### `05` — AI needs engineering
-
-Good prompts help.
-
-Good systems matter more.
+1. **Understand before optimizing.** If I don't know where the bottleneck is, I'm guessing.
+2. **A prototype isn't production.** Production means `security · failures · observability · scalability · maintenance`.
+3. **Simplicity wins.** Complexity should solve a problem, not create one.
+4. **Build things you can explain.** If I can't explain why a component exists, it deserves another look.
+5. **AI needs engineering.** Good prompts help. Good systems matter more.
 
 ---
 
-# CURRENT RABBIT HOLES
+## WHAT I'M LEARNING
 
-<div align="center">
+`Python` → `DSA` → `Mathematics` → `CS Foundations` → `Advanced AI Systems` → `Quantum Information` → `Quantum Algorithms`
 
-```text
-                 ┌──────────────┐
-                 │     AI       │
-                 └──────┬───────┘
-                        │
-                        ▼
-                 ┌──────────────┐
-                 │    AGENTS    │
-                 └──────┬───────┘
-                        │
-                        ▼
-                 ┌──────────────┐
-                 │   SYSTEMS    │
-                 └──────┬───────┘
-                        │
-                        ▼
-                 ┌──────────────┐
-                 │ MATHEMATICS  │
-                 └──────┬───────┘
-                        │
-                        ▼
-                 ┌──────────────┐
-                 │   QUANTUM    │
-                 └──────────────┘
-```
-
-</div>
-
----
-
-# EXPERIENCE
-
-### PharmaEdge
-
-**AI Engineer / Consultant**
-
-Building AI-driven pharmaceutical intelligence and production systems.
-
----
-
-### Trucube Infotech
-
-**Full-Stack · AI · Game · Blockchain**
-
-Worked across:
-
-`AI/ML` · `Backend` · `Full-Stack` · `Unity` · `Unreal` · `C#` · `C++` · `Blockchain`
-
----
-
-# EDUCATION
-
-### UPES
-
-**M.Tech — Computer Science & Engineering**
-
-Focus:
-
-`Artificial Intelligence / Machine Learning`
-
----
-### UPES
-
-**B.Tech — Computer Science & Engineering**
-
-Focus:
-
-`Graphics and Gaming`
-
----
-
-# OUTSIDE THE CODE
-
-I like understanding how things work underneath the abstraction.
-
-Not just:
-
-```text
-"How do I use it?"
-```
-
-but:
-
-```text
-"Why does it work?"
-"Why does it fail?"
-"What happens underneath?"
-"Can I build it myself?"
-```
-
-That curiosity is probably responsible for most of the projects in my repositories.
+Not just *"how do I use it?"* but *"why does it work, why does it fail, what happens underneath, and can I build it myself?"* That curiosity is behind most of what's in my repositories.
 
 ---
 
 <div align="center">
 
-# LET'S BUILD SOMETHING INTERESTING.
-
-<br>
+## LET'S BUILD SOMETHING INTERESTING.
 
 <a href="https://linkedin.com/in/quantum-shubham">
   <img src="https://img.shields.io/badge/LinkedIn-quantum--shubham-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
-
 <a href="https://sumanillabs.com">
   <img src="https://img.shields.io/badge/Sumanil%20Labs-111111?style=for-the-badge&logo=googlechrome&logoColor=white" />
 </a>
-
 <a href="https://sumanilgamestudio.com">
   <img src="https://img.shields.io/badge/Sumanil%20Game%20Studio-111111?style=for-the-badge&logo=unity&logoColor=white" />
 </a>
 
 <br><br>
 
-```text
-BUILD → BREAK → UNDERSTAND → IMPROVE → SHIP
-```
-
-<br>
+`BUILD → BREAK → UNDERSTAND → IMPROVE → SHIP`
 
 <sub>Always building. Always learning. Always questioning the abstraction.</sub>
 
