@@ -9,16 +9,33 @@ import urllib.request
 USER = "quantum-shubham"
 README = "README.md"
 START, END = "<!-- CONTRIBUTIONS:START -->", "<!-- CONTRIBUTIONS:END -->"
+# PRs a maintainer closed to continue on an internal branch: my PR url -> continuation PR number
+CONTINUED_IN = {
+    "https://github.com/Unity-Technologies/com.unity.netcode.gameobjects/pull/4200": 4215,
+}
 
 
-def fetch_prs():
-    # shortcut: first 100 results only, paginate once there are more
-    url = f"https://api.github.com/search/issues?q=is:pr+author:{USER}+-user:{USER}&sort=created&order=desc&per_page=100"
+def get(url):
     headers = {"Accept": "application/vnd.github+json"}
     if os.environ.get("GITHUB_TOKEN"):
         headers["Authorization"] = f"Bearer {os.environ['GITHUB_TOKEN']}"
     with urllib.request.urlopen(urllib.request.Request(url, headers=headers)) as r:
-        return json.load(r)["items"]
+        return json.load(r)
+
+
+def fetch_prs():
+    # shortcut: first 100 results only, paginate once there are more
+    prs = get(f"https://api.github.com/search/issues?q=is:pr+author:{USER}+-user:{USER}&sort=created&order=desc&per_page=100")["items"]
+    for pr in prs:
+        number = CONTINUED_IN.get(pr["html_url"])
+        if number:
+            # report the continuation's state, it decides whether my change lands
+            repo = pr["repository_url"].split("/repos/", 1)[1]
+            continued = get(f"https://api.github.com/repos/{repo}/pulls/{number}")
+            pr["state"] = continued["state"]
+            pr["pull_request"]["merged_at"] = continued["merged_at"]
+            pr["status_number"] = number
+    return prs
 
 
 def badge(label, value, color, logo):
@@ -45,7 +62,7 @@ def render(prs):
         owner = repo.split("/", 1)[0]
         # maintainers can rename PRs: neutralise HTML, comment markers and table/link syntax
         title = html.escape(" ".join(pr["title"].split())).translate({ord(c): "\\" + c for c in "|[]"})
-        status = f"https://img.shields.io/github/pulls/detail/state/{repo}/{pr['number']}?style=flat-square&label="
+        status = f"https://img.shields.io/github/pulls/detail/state/{repo}/{pr.get('status_number', pr['number'])}?style=flat-square&label="
         lines.append(
             f'| <img src="https://github.com/{owner}.png?size=40" width="20" height="20" /> [**{repo}**](https://github.com/{repo})'
             f' | [{title}]({pr["html_url"]}) | <img src="{status}" /> |'
